@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-title {
-  font-size: clamp(32px, 4vw, 48px);
+  font-size: 28px;
   margin-bottom: 20px;
   font-weight: 700;
 }
@@ -1148,10 +1148,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 30px 28px;
 }
 
-.stats-q1 { background: var(--color-gold); flex-direction: column; align-items: flex-start; justify-content: center; gap: 14px; }
+.stats-q1 { background: var(--color-gold); flex-direction: column; justify-content: center; gap: 14px; }
 .stats-q2 { background: transparent; padding: 0; }
 .stats-q3 { background: transparent; padding: 0; }
-.stats-q4 { background: var(--color-gold); flex-direction: column; align-items: flex-start; justify-content: center; gap: 14px; }
+.stats-q4 { background: var(--color-gold); flex-direction: column; justify-content: center; gap: 14px; }
 
 .stats-quadrant img {
   width: 100%;
@@ -1675,7 +1675,6 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--color-navy);
   position: relative;
   overflow: hidden;
-  padding: 0 0 70px;
 }
 
 .footer-watermark {
@@ -1711,10 +1710,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-logo {
+  display: block;
   max-width: 200px;
   height: auto;
   margin-bottom: 22px;
-  filter: brightness(0) invert(1);
+  filter: none;
 }
 
 .footer-brand-box > p {
