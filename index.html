@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO -->
+  <title>Raphael Rodrigues – Advocacia & Consultoria | Goiânia</title>
+  <meta name="description" content="Escritório de advocacia em Goiânia com mais de 20 anos de experiência. Direito Civil, Empresarial, Trabalhista, Tributário, Previdenciário e Família. Atendimento personalizado de excelência.">
+  <meta name="keywords" content="advocacia Goiânia, escritório de advocacia, Raphael Rodrigues, direito civil, direito empresarial, advogado Goiás">
+  <meta name="author" content="Raphael Rodrigues Advocacia e Consultoria">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.raphaelrodrigues.com.br/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Raphael Rodrigues – Advocacia & Consultoria">
+  <meta property="og:description" content="Soluções jurídicas criativas, inovadoras e consistentes há mais de 20 anos em Goiânia.">
+  <meta property="og:url" content="https://www.raphaelrodrigues.com.br/">
+  <meta property="og:image" content="https://www.raphaelrodrigues.com.br/wp-content/uploads/2020/04/raphaelrodrigues-site.png">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Raphael Rodrigues – Advocacia & Consultoria">
+  <meta name="twitter:description" content="Advocacia premium em Goiânia. Atendimento personalizado e excelência jurídica.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+  <!-- Fontes locais (Marcellus + Fira Sans Condensed + Open Sans fallback) -->
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="legalor-layout.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+  <!-- ========== LOADER ========== -->
+  <div id="loader" class="loader" aria-hidden="true">
+    <div class="loader-inner">
+      <div class="loader-scale"></div>
+      <img src="assets/images/logo.png" alt="Raphael Rodrigues" class="loader-logo" width="180" height="60">
+    </div>
+  </div>
+
+  <!-- ========== CABEÇALHO LEGALOR (layout fiel ao template) ========== -->
+  <header class="site-header" id="header">
+    <!-- Barra superior -->
+    <div class="top-bar">
+      <div class="container top-bar-inner">
+        <div class="top-bar-promo">
+          <i class="fas fa-comment-dots" aria-hidden="true"></i>
+          <span>Precisa de consulta gratuita? <strong><a href="#contato">Agende agora</a></strong></span>
+        </div>
+        <div class="top-bar-right">
+          <ul class="top-bar-links">
+            <li><a href="#blog">Notícias</a></li>
+            <li><a href="#contato">FAQ</a></li>
+            <li><a href="#">Política</a></li>
+          </ul>
+          <ul class="top-bar-social">
+            <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Barra principal de navegação (largura = container do site) -->
+    <div class="main-header">
+      <div class="container main-header-inner">
+        <a href="#inicio" class="logo" aria-label="Raphael Rodrigues - Início">
+          <span class="logo-icon" aria-hidden="true"><i class="fas fa-landmark"></i></span>
+          <span class="logo-text">Raphael <strong>Rodrigues</strong></span>
+        </a>
+
+        <div class="nav-center">
+          <nav class="nav" id="nav" aria-label="Menu principal">
+            <ul class="nav-list">
+              <li><a href="#inicio" class="nav-link active">Início</a></li>
+              <li><a href="#sobre" class="nav-link">Sobre Nós</a></li>
+              <li class="nav-has-dropdown">
+                <a href="#areas" class="nav-link">Áreas <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-has-dropdown">
+                <a href="#blog" class="nav-link">Blog <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+              </li>
+              <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+          </nav>
+          <button class="search-toggle" aria-label="Buscar" type="button">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+
+        <a href="tel:+556232247580" class="header-cta-phone">
+          <span class="header-cta-icon"><i class="fas fa-phone-alt" aria-hidden="true"></i></span>
+          <span class="header-cta-text">
+            <small>Fale com um especialista!</small>
+            <strong>(62) 3224-7580</strong>
+          </span>
+        </a>
+
+        <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" type="button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav aria-label="Menu mobile">
+      <ul>
+        <li><a href="#inicio" class="mobile-link">Início</a></li>
+        <li><a href="#sobre" class="mobile-link">Sobre</a></li>
+        <li><a href="#areas" class="mobile-link">Áreas de Atuação</a></li>
+        <li><a href="#equipe" class="mobile-link">Equipe</a></li>
+        <li><a href="#blog" class="mobile-link">Blog</a></li>
+        <li><a href="#contato" class="mobile-link">Contato</a></li>
+      </ul>
+      <a href="tel:+556232247580" class="mobile-phone-cta">
+        <i class="fas fa-phone-alt"></i> (62) 3224-7580
+      </a>
+      <a href="#contato" class="btn btn-gold">Consulta Gratuita</a>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="inicio" aria-label="Banner principal">
+      <div class="hero-watermark" aria-hidden="true">
+        <i class="fas fa-balance-scale"></i>
+      </div>
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <h1 class="hero-title">Somos o Melhor Escritório de Advocacia Desde 2000</h1>
+          <p class="hero-text">Exercemos a advocacia de forma artesanal, onde a relação de confiança entre cliente e advogado deve prevalecer. Soluções criativas, inovadoras e juridicamente consistentes.</p>
+          <div class="hero-buttons">
+            <a href="#contato" class="btn btn-gold">Agendar Consulta</a>
+            <a href="#sobre" class="btn btn-hero-white">Saiba Mais</a>
+          </div>
+        </div>
+        <div class="hero-image reveal reveal-delay">
+          <img src="assets/images/hero-lawyer.png" alt="Advogado Raphael Rodrigues" width="1400" height="1600" loading="eager">
+        </div>
+      </div>
+
+      <!-- Feature Cards -->
+      <div class="container hero-features">
+        <div class="feature-cards">
+          <article class="feature-card reveal">
+            <h3>Certificado OAB</h3>
+            <div class="feature-icon">
+              <i class="fas fa-certificate" aria-hidden="true"></i>
+            </div>
+            <p>Atuação consolidada e reconhecida desde o ano 2000 em diversas áreas do Direito.</p>
+          </article>
+          <article class="feature-card feature-card-gold reveal reveal-delay">
+            <h3>Advogados Especialistas</h3>
+            <div class="feature-icon">
+              <i class="fas fa-user-tie" aria-hidden="true"></i>
+            </div>
+            <p>Equipe com sólida formação acadêmica e profissional de excelência.</p>
+          </article>
+          <article class="feature-card reveal reveal-delay-2">
+            <h3>Preço Justo</h3>
+            <div class="feature-icon">
+              <i class="fas fa-hand-holding-usd" aria-hidden="true"></i>
+            </div>
+            <p>Soluções jurídicas acessíveis com transparência e qualidade superior.</p>
+          </article>
+          <article class="feature-card reveal reveal-delay-3">
+            <h3>Atendimento Cordial</h3>
+            <div class="feature-icon">
+              <i class="fas fa-handshake" aria-hidden="true"></i>
+            </div>
+            <p>Proximidade, excelência e compromisso com nossos clientes e parceiros.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SOBRE (layout Legalor) ========== -->
+    <section class="about section" id="sobre" aria-labelledby="about-title">
+      <div class="container">
+        <!-- Topo: título à esquerda + duas colunas de texto -->
+        <div class="about-intro reveal">
+          <h2 class="about-intro-title" id="about-title">Sobre Nosso Escritório de Advocacia</h2>
+          <div class="about-intro-cols">
+            <p class="about-intro-col">O escritório Raphael Rodrigues Advocacia e Consultoria remonta sua origem ao ano de 2000, fundado pelo então advogado Rodrigo Rodrigues, sucedido por Raphael Rodrigues.</p>
+            <p class="about-intro-col">Ao longo desses mais de 20 anos de existência, oferecemos soluções criativas, inovadoras e juridicamente consistentes às mais diversas questões do Direito, com preponderância em Direito Civil, Imobiliário, Contratos, Responsabilidade Civil, Família e Empresarial.</p>
+          </div>
+        </div>
+
+        <!-- Visual: imagem + painel branco sobreposto à direita -->
+        <div class="about-visual reveal reveal-delay">
+          <div class="about-image-wrap">
+            <img src="assets/images/about-team.jpg" alt="Equipe do escritório Raphael Rodrigues" width="800" height="600" loading="lazy">
+            <button class="about-play" aria-label="Assistir vídeo institucional" type="button">
+              <i class="fas fa-play" aria-hidden="true"></i>
+            </button>
+          </div>
+
+          <aside class="about-panel">
+            <blockquote class="about-panel-quote">
+              <p>Compromisso, seriedade e inovação somados a estrutura sólida e profissionais competentes.</p>
+            </blockquote>
+
+            <div class="about-founder">
+              <img src="assets/images/founder.jpg" alt="Raphael Rodrigues" width="56" height="56" loading="lazy">
+              <div class="about-founder-info">
+                <strong>Raphael Rodrigues</strong>
+                <span>Advogado · Sócio Fundador</span>
+              </div>
+              <span class="about-founder-sign" aria-hidden="true">Raphael Rodrigues</span>
+            </div>
+
+            <div class="accordion accordion-legalor" id="aboutAccordion">
+              <div class="accordion-item">
+                <button class="accordion-header" type="button" aria-expanded="false">
+                  <span>01. Nossa História e Conceito</span>
+                  <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                </button>
+                <div class="accordion-body">
+                  <p>Os fundadores apostaram na associação com jovens advogados com sólida formação acadêmica e profissional, e na constituição de uma infraestrutura capaz de atender à demanda de forma eficiente e responsável.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-header" type="button" aria-expanded="false">
+                  <span>02. Visão e Valores do Escritório</span>
+                  <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                </button>
+                <div class="accordion-body">
+                  <p>Acreditamos na advocacia artesanal, onde cada caso recebe atenção dedicada e estratégias personalizadas para alcançar os melhores resultados.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-header" type="button" aria-expanded="false">
+                  <span>03. Processo Jurídico Eficiente</span>
+                  <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                </button>
+                <div class="accordion-body">
+                  <p>Soluções ágeis, precisas e confiáveis diante das constantes inovações tecnológicas e mutações econômicas do mercado.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-header" type="button" aria-expanded="false">
+                  <span>04. Missão e Compromisso</span>
+                  <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                </button>
+                <div class="accordion-body">
+                  <p>Satisfação em servir nossos clientes com qualidade e transparência. Venha tomar um café conosco!</p>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ÁREAS DE ATUAÇÃO ========== -->
+    <section class="practice section section-gray" id="areas" aria-labelledby="practice-title">
+      <div class="container">
+        <header class="section-header center reveal">
+          <h2 class="section-title" id="practice-title">Nossas Áreas de Atuação</h2>
+          <p class="section-desc">Assessoria jurídica completa com atendimento personalizado de excelência, com proximidade a nossos clientes e parceiros em Goiânia.</p>
+        </header>
+
+        <div class="practice-grid practice-grid-legalor">
+          <article class="practice-card reveal">
+            <div class="practice-card-image">
+              <img src="assets/images/practice-civil.jpg" alt="Direito Civil" width="400" height="400" loading="lazy">
+            </div>
+            <div class="practice-card-body">
+              <div class="practice-card-info">
+                <h3>Direito Civil</h3>
+                <a href="#contato" class="practice-link">Saiba Mais</a>
+              </div>
+              <span class="practice-icon" aria-hidden="true"><i class="fas fa-scale-balanced"></i></span>
+            </div>
+          </article>
+
+          <article class="practice-card reveal reveal-delay">
+            <div class="practice-card-image">
+              <img src="assets/images/practice-business.jpg" alt="Direito Empresarial" width="400" height="400" loading="lazy">
+            </div>
+            <div class="practice-card-body">
+              <div class="practice-card-info">
+                <h3>Direito Empresarial</h3>
+                <a href="#contato" class="practice-link">Saiba Mais</a>
+              </div>
+              <span class="practice-icon" aria-hidden="true"><i class="fas fa-handshake"></i></span>
+            </div>
+          </article>
+
+          <article class="practice-card reveal reveal-delay-2">
+            <div class="practice-card-image">
+              <img src="assets/images/practice-labor.jpg" alt="Direito Trabalhista" width="400" height="400" loading="lazy">
+            </div>
+            <div class="practice-card-body">
+              <div class="practice-card-info">
+                <h3>Direito Trabalhista</h3>
+                <a href="#contato" class="practice-link">Saiba Mais</a>
+              </div>
+              <span class="practice-icon" aria-hidden="true"><i class="fas fa-briefcase"></i></span>
+            </div>
+          </article>
+        </div>
+
+        <div class="practice-grid practice-grid-more">
+          <article class="practice-card reveal">
+            <div class="practice-card-image">
+              <img src="assets/images/practice-social.jpg" alt="Direito Previdenciário" width="400" height="400" loading="lazy">
+            </div>
+            <div class="practice-card-body">
+              <div class="practice-card-info">
+                <h3>Direito Previdenciário</h3>
+                <a href="#contato" class="practice-link">Saiba Mais</a>
+              </div>
+              <span class="practice-icon" aria-hidden="true"><i class="fas fa-user-shield"></i></span>
+            </div>
+          </article>
+          <article class="practice-card reveal reveal-delay">
+            <div class="practice-card-image">
+              <img src="assets/images/practice-tax.jpg" alt="Direito Tributário" width="400" height="400" loading="lazy">
+            </div>
+            <div class="practice-card-body">
+              <div class="practice-card-info">
+                <h3>Direito Tributário</h3>
+                <a href="#contato" class="practice-link">Saiba Mais</a>
+              </div>
+              <span class="practice-icon" aria-hidden="true"><i class="fas fa-file-invoice-dollar"></i></span>
+            </div>
+          </article>
+          <article class="practice-card reveal reveal-delay-2">
+            <div class="practice-card-image">
+              <img src="assets/images/practice-family.jpg" alt="Direito de Família" width="400" height="400" loading="lazy">
+            </div>
+            <div class="practice-card-body">
+              <div class="practice-card-info">
+                <h3>Direito de Família</h3>
+                <a href="#contato" class="practice-link">Saiba Mais</a>
+              </div>
+              <span class="practice-icon" aria-hidden="true"><i class="fas fa-house"></i></span>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-cta center reveal">
+          <a href="#areas" class="btn btn-gold">Ver Todas as Áreas</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== DIFERENCIAIS / WHY CHOOSE US ========== -->
+    <section class="why-choose section" id="diferenciais" aria-labelledby="why-title">
+      <div class="why-choose-grid">
+        <div class="why-choose-left reveal">
+          <span class="section-subtitle light">Por Que Nos Escolher</span>
+          <h2 class="section-title light" id="why-title">Contrate-nos Para Qualquer Serviço Jurídico!</h2>
+          <p class="why-text">Atendimento personalizado de excelência, com proximidade a nossos clientes e parceiros. Compromisso, seriedade e inovação em cada atuação.</p>
+          <ul class="why-list">
+            <li><i class="fas fa-check" aria-hidden="true"></i> Atendimento personalizado e de excelência</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> Mais de 20 anos de experiência jurídica</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> Equipe especializada e em constante formação</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> Ética, transparência e fidelidade ao cliente</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> Soluções ágeis, precisas e confiáveis</li>
+          </ul>
+          <div class="why-hours">
+            <p><strong>Segunda – Sexta:</strong> 8h às 18h</p>
+            <p><strong>Sábado, Domingo e Feriados:</strong> Fechado</p>
+          </div>
+          <a href="#contato" class="btn btn-gold">Fale Conosco</a>
+        </div>
+
+        <div class="why-choose-middle">
+          <div class="why-experience-bar reveal">
+            <span class="why-exp-num">20+</span>
+            <span class="why-exp-txt">Anos de<br>Experiência</span>
+          </div>
+          <div class="why-choose-stats">
+            <div class="stat-box stat-box-white reveal">
+              <span class="stat-box-number">95%</span>
+              <span class="stat-box-label">Solução Jurídica</span>
+            </div>
+            <div class="stat-box stat-box-gold reveal reveal-delay">
+              <span class="stat-box-number">98%</span>
+              <span class="stat-box-label">Sucesso nos Casos</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="why-choose-right reveal reveal-delay-2">
+          <img src="assets/images/why-choose.jpg" alt="Consultoria jurídica no escritório" width="800" height="900" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CASOS DE SUCESSO ========== -->
+    <section class="cases section" id="casos" aria-labelledby="cases-title">
+      <div class="container">
+        <header class="section-header center reveal">
+          <h2 class="section-title" id="cases-title">Últimos Casos de Sucesso</h2>
+          <p class="section-desc">Conheça alguns dos resultados que alcançamos para nossos clientes em diversas áreas do Direito.</p>
+        </header>
+
+        <ul class="cases-filter reveal" id="casesFilter">
+          <li><button type="button" class="active" data-filter="all">Todos</button></li>
+          <li><button type="button" data-filter="civil">Civil</button></li>
+          <li><button type="button" data-filter="empresarial">Empresarial</button></li>
+          <li><button type="button" data-filter="trabalhista">Trabalhista</button></li>
+          <li><button type="button" data-filter="tributario">Tributário</button></li>
+          <li><button type="button" data-filter="familia">Família</button></li>
+        </ul>
+
+        <div class="cases-grid reveal" id="casesGrid">
+          <article class="case-item" data-category="civil">
+            <img src="assets/images/case-1.jpg" alt="Direito Imobiliário" loading="lazy">
+            <div class="case-overlay">
+              <span class="case-cat">Civil</span>
+              <h3>Direito Imobiliário e Condominial</h3>
+            </div>
+          </article>
+          <article class="case-item" data-category="trabalhista">
+            <img src="assets/images/case-2.jpg" alt="Relações Trabalhistas" loading="lazy">
+            <div class="case-overlay">
+              <span class="case-cat">Trabalhista</span>
+              <h3>Relações Trabalhistas</h3>
+            </div>
+          </article>
+          <article class="case-item" data-category="civil">
+            <img src="assets/images/case-3.jpg" alt="Litígio Civil" loading="lazy">
+            <div class="case-overlay">
+              <span class="case-cat">Civil</span>
+              <h3>Litígio Civil e Responsabilidade</h3>
+            </div>
+          </article>
+          <article class="case-item" data-category="empresarial">
+            <img src="assets/images/case-4.jpg" alt="Direito Empresarial" loading="lazy">
+            <div class="case-overlay">
+              <span class="case-cat">Empresarial</span>
+              <h3>Contratos e Negócios Empresariais</h3>
+            </div>
+          </article>
+          <article class="case-item" data-category="tributario">
+            <img src="assets/images/case-5.jpg" alt="Gestão Tributária" loading="lazy">
+            <div class="case-overlay">
+              <span class="case-cat">Tributário</span>
+              <h3>Planejamento e Gestão Tributária</h3>
+            </div>
+          </article>
+          <article class="case-item" data-category="familia">
+            <img src="assets/images/case-6.jpg" alt="Direito de Família" loading="lazy">
+            <div class="case-overlay">
+              <span class="case-cat">Família</span>
+              <h3>Direito de Família e Sucessões</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ESTATÍSTICAS ========== -->
+    <section class="stats section section-dark" id="estatisticas" aria-labelledby="stats-title">
+      <div class="container stats-grid">
+        <div class="stats-visual reveal">
+          <div class="stats-circle">
+            <div class="stats-quadrant stats-q1">
+              <i class="fas fa-user-graduate" aria-hidden="true"></i>
+              <p>Nossa Expertise é<br>Conquistada Pela<br>Experiência</p>
+            </div>
+            <div class="stats-quadrant stats-q2">
+              <img src="assets/images/stats-office.jpg" alt="Consultoria jurídica" width="200" height="200" loading="lazy">
+            </div>
+            <div class="stats-quadrant stats-q3">
+              <img src="assets/images/stats-team.jpg" alt="Equipe jurídica" width="200" height="200" loading="lazy">
+            </div>
+            <div class="stats-quadrant stats-q4">
+              <i class="fas fa-lightbulb" aria-hidden="true"></i>
+              <p>Nossa Melhor Equipe<br>Para Sua Assessoria<br>Jurídica</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-content reveal reveal-delay">
+          <span class="section-subtitle light">Nossa Expertise</span>
+          <h2 class="section-title light" id="stats-title">Experiência em Que Você Pode Confiar, Serviço em Que Pode Contar!</h2>
+          <p class="stats-desc">Nossa expertise é conquistada através de anos de dedicação e resultados consistentes para nossos clientes em Goiânia e em todo o Brasil.</p>
+
+          <div class="counters-grid">
+            <div class="counter-item">
+              <span class="counter" data-target="1500">0</span><span class="counter-suffix">+</span>
+              <p>Casos Resolvidos</p>
+            </div>
+            <div class="counter-item">
+              <span class="counter" data-target="15">0</span><span class="counter-suffix">+</span>
+              <p>Prêmios Conquistados</p>
+            </div>
+            <div class="counter-item">
+              <span class="counter" data-target="3">0</span><span class="counter-suffix">+</span>
+              <p>Unidades</p>
+            </div>
+            <div class="counter-item">
+              <span class="counter" data-target="800">0</span><span class="counter-suffix">+</span>
+              <p>Clientes Satisfeitos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EQUIPE ========== -->
+    <section class="team section section-gray" id="equipe" aria-labelledby="team-title">
+      <div class="container">
+        <header class="section-header center reveal">
+          <span class="section-subtitle">Profissionais</span>
+          <h2 class="section-title" id="team-title">Nossa Equipe de Especialistas</h2>
+          <p class="section-desc">Profissionais competentes, comprometidos e em constante aperfeiçoamento para oferecer a melhor assessoria jurídica.</p>
+        </header>
+
+        <div class="team-grid">
+          <article class="team-card reveal">
+            <div class="team-card-image">
+              <img src="assets/images/team-1.jpg" alt="Raphael Rodrigues" width="400" height="500" loading="lazy">
+              <div class="team-card-overlay">
+                <ul class="team-social">
+                  <li><a href="#" aria-label="LinkedIn Raphael"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="#" aria-label="E-mail Raphael"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-card-body">
+              <h3>Raphael Rodrigues</h3>
+              <span>Advogado · Sócio</span>
+            </div>
+          </article>
+
+          <article class="team-card reveal reveal-delay">
+            <div class="team-card-image">
+              <img src="assets/images/team-2.jpg" alt="Andréa Karina Batista Alves" width="400" height="500" loading="lazy">
+              <div class="team-card-overlay">
+                <ul class="team-social">
+                  <li><a href="#" aria-label="LinkedIn Andréa"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="#" aria-label="E-mail Andréa"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-card-body">
+              <h3>Andréa Karina Batista Alves</h3>
+              <span>Advogada</span>
+            </div>
+          </article>
+
+          <article class="team-card reveal reveal-delay-2">
+            <div class="team-card-image">
+              <img src="assets/images/team-3.jpg" alt="Rodrigo Rodrigues" width="400" height="500" loading="lazy">
+              <div class="team-card-overlay">
+                <ul class="team-social">
+                  <li><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="#" aria-label="E-mail"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-card-body">
+              <h3>Rodrigo Rodrigues</h3>
+              <span>Advogado · Fundador</span>
+            </div>
+          </article>
+
+          <article class="team-card reveal reveal-delay-3">
+            <div class="team-card-image">
+              <img src="assets/images/team-2.jpg" alt="Advogada do escritório" width="400" height="500" loading="lazy">
+              <div class="team-card-overlay">
+                <ul class="team-social">
+                  <li><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="#" aria-label="E-mail"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-card-body">
+              <h3>Equipe Jurídica</h3>
+              <span>Advogada</span>
+            </div>
+          </article>
+
+          <article class="team-card reveal reveal-delay-3">
+            <div class="team-card-image">
+              <img src="assets/images/team-1.jpg" alt="Advogado do escritório" width="400" height="500" loading="lazy">
+              <div class="team-card-overlay">
+                <ul class="team-social">
+                  <li><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="#" aria-label="E-mail"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-card-body">
+              <h3>Equipe Jurídica</h3>
+              <span>Advogado</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== DEPOIMENTOS ========== -->
+    <section class="testimonials section section-gray" id="depoimentos" aria-labelledby="testimonials-title">
+      <div class="container testimonials-grid">
+        <div class="testimonials-header reveal">
+          <h2 class="section-title" id="testimonials-title">A Confiança dos Nossos Clientes</h2>
+          <p>Satisfação em servir nossos clientes com qualidade e transparência.</p>
+          <a href="#contato" class="btn btn-gold">Ver Todos os Depoimentos</a>
+        </div>
+
+        <div class="testimonials-cards reveal reveal-delay">
+            <article class="testimonial-card">
+              <div class="testimonial-quote-icon"><i class="fas fa-quote-left" aria-hidden="true"></i></div>
+              <div class="testimonial-stars" aria-label="5 estrelas">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial-text">"Utilizo os serviços deles desde 2008, são ótimos. Se você estiver com a razão, eles entram pra ganhar."</p>
+              <footer class="testimonial-author">
+                <img src="assets/images/client-1.jpg" alt="Luiz Carlos" width="56" height="56" loading="lazy">
+                <div>
+                  <strong>Luiz Carlos</strong>
+                  <span>Cliente</span>
+                </div>
+              </footer>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-quote-icon"><i class="fas fa-quote-left" aria-hidden="true"></i></div>
+              <div class="testimonial-stars" aria-label="5 estrelas">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial-text">"Excelente! Eu recomendo. Uma ótima equipe de advogados, muito profissionais e atenciosos."</p>
+              <footer class="testimonial-author">
+                <img src="assets/images/client-2.jpg" alt="Kenob Krius" width="56" height="56" loading="lazy">
+                <div>
+                  <strong>Kenob Krius</strong>
+                  <span>Cliente</span>
+                </div>
+              </footer>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-quote-icon"><i class="fas fa-quote-left" aria-hidden="true"></i></div>
+              <div class="testimonial-stars" aria-label="5 estrelas">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial-text">"Compromisso, seriedade e inovação. Escritório aconchegante com estrutura sólida. Venha tomar um café conosco!"</p>
+              <footer class="testimonial-author">
+                <img src="assets/images/client-3.jpg" alt="Cliente satisfeita" width="56" height="56" loading="lazy">
+                <div>
+                  <strong>Maria Silva</strong>
+                  <span>Cliente</span>
+                </div>
+              </footer>
+            </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== BLOG ========== -->
+    <section class="blog section" id="blog" aria-labelledby="blog-title">
+      <div class="container">
+        <header class="section-header center reveal">
+          <span class="section-subtitle">Notícias</span>
+          <h2 class="section-title" id="blog-title">Notícias e Artigos</h2>
+          <p class="section-desc">Aqui você sempre vai encontrar notícias, artigos e muita coisa interessante sobre advocacia.</p>
+        </header>
+
+        <div class="blog-grid">
+          <article class="blog-card reveal">
+            <div class="blog-card-image">
+              <img src="assets/images/blog-1.jpg" alt="Coronavírus e relações trabalhistas" width="400" height="260" loading="lazy">
+              <span class="blog-category">Trabalhista</span>
+            </div>
+            <div class="blog-card-body">
+              <time datetime="2020-03-15">15 de Março, 2020</time>
+              <h3><a href="#">Coronavírus e as Relações Trabalhistas</a></h3>
+              <p>Impactos do novo coronavírus nas relações de trabalho e orientações para empregadores e empregados.</p>
+              <a href="#" class="blog-link">Ler Mais <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="blog-card reveal reveal-delay">
+            <div class="blog-card-image">
+              <img src="assets/images/blog-2.jpg" alt="COVID-19 e contratos" width="400" height="260" loading="lazy">
+              <span class="blog-category">Empresarial</span>
+            </div>
+            <div class="blog-card-body">
+              <time datetime="2020-04-10">10 de Abril, 2020</time>
+              <h3><a href="#">COVID-19: Contratos, Incerteza e Manutenção das Empresas</a></h3>
+              <p>Os desafios para a manutenção das empresas e a exceção da ruína em tempos de pandemia.</p>
+              <a href="#" class="blog-link">Ler Mais <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="blog-card reveal reveal-delay-2">
+            <div class="blog-card-image">
+              <img src="assets/images/blog-3.jpg" alt="Direito e inovação" width="400" height="260" loading="lazy">
+              <span class="blog-category">Advocacia</span>
+            </div>
+            <div class="blog-card-body">
+              <time datetime="2024-01-20">20 de Janeiro, 2024</time>
+              <h3><a href="#">Inovação Tecnológica na Advocacia Moderna</a></h3>
+              <p>Como as constantes inovações tecnológicas exigem soluções ágeis, precisas e confiáveis.</p>
+              <a href="#" class="blog-link">Ler Mais <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTATO ========== -->
+    <section class="contact section" id="contato" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <span class="section-subtitle">Contato</span>
+          <h2 class="section-title" id="contact-title">Entre em Contato</h2>
+          <p>Estamos à disposição para atendê-lo. Venha tomar um café conosco!</p>
+
+          <ul class="contact-list">
+            <li>
+              <div class="contact-icon"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>
+              <div>
+                <strong>Endereço</strong>
+                <p>Rua 105, nº 381, Setor Sul<br>Goiânia – Goiás</p>
+              </div>
+            </li>
+            <li>
+              <div class="contact-icon"><i class="fas fa-phone-alt" aria-hidden="true"></i></div>
+              <div>
+                <strong>Telefone</strong>
+                <p><a href="tel:+556232247580">(62) 3224-7580</a></p>
+              </div>
+            </li>
+            <li>
+              <div class="contact-icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+              <div>
+                <strong>E-mail</strong>
+                <p><a href="mailto:contato@raphaelrodrigues.com.br">contato@raphaelrodrigues.com.br</a></p>
+              </div>
+            </li>
+            <li>
+              <div class="contact-icon"><i class="far fa-clock" aria-hidden="true"></i></div>
+              <div>
+                <strong>Horário</strong>
+                <p>Segunda a Sexta: 8h às 18h</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form reveal reveal-delay" id="contactForm" novalidate>
+          <div class="form-group">
+            <input type="text" id="nome" name="nome" placeholder="Seu Nome" required autocomplete="name">
+            <label for="nome">Nome</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Seu E-mail" required autocomplete="email">
+            <label for="email">E-mail</label>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="telefone" name="telefone" placeholder="Seu Telefone" autocomplete="tel">
+            <label for="telefone">Telefone</label>
+          </div>
+          <div class="form-group">
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
+            <label for="mensagem">Mensagem</label>
+          </div>
+          <button type="submit" class="btn btn-gold btn-full">Enviar Mensagem</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER (layout Legalor) ========== -->
+  <footer class="footer">
+    <div class="footer-body">
+      <div class="footer-watermark" aria-hidden="true"><i class="fas fa-balance-scale"></i></div>
+      <div class="container footer-layout">
+        <!-- Caixa dourada à esquerda -->
+        <aside class="footer-brand-box reveal">
+          <img src="assets/images/logo.png" alt="Raphael Rodrigues Advocacia" class="footer-logo" width="180" height="50" loading="lazy">
+          <p>Escritório de advocacia premium em Goiânia. Soluções jurídicas criativas, inovadoras e juridicamente consistentes desde 2000.</p>
+          <ul class="footer-brand-contact">
+            <li>
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+              <span>Rua 105, nº 381, Setor Sul<br>Goiânia – Goiás, Brasil</span>
+            </li>
+            <li>
+              <i class="fas fa-phone-alt" aria-hidden="true"></i>
+              <a href="tel:+556232247580">(62) 3224-7580</a>
+            </li>
+            <li>
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              <a href="mailto:contato@raphaelrodrigues.com.br">contato@raphaelrodrigues.com.br</a>
+            </li>
+          </ul>
+        </aside>
+
+        <!-- Colunas à direita -->
+        <div class="footer-columns">
+          <div class="footer-col">
+            <h4>Links Rápidos</h4>
+            <ul>
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre">Sobre Nós</a></li>
+              <li><a href="#areas">Áreas de Atuação</a></li>
+              <li><a href="#equipe">Nossa Equipe</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Áreas de Atuação</h4>
+            <ul>
+              <li><a href="#areas">Direito Civil</a></li>
+              <li><a href="#areas">Direito Empresarial</a></li>
+              <li><a href="#areas">Direito Trabalhista</a></li>
+              <li><a href="#areas">Direito Previdenciário</a></li>
+              <li><a href="#areas">Direito Tributário</a></li>
+              <li><a href="#areas">Direito de Família</a></li>
+            </ul>
+          </div>
+          <div class="footer-col footer-newsletter">
+            <h4>Newsletter</h4>
+            <p>Inscreva-se e receba notícias, artigos e informações jurídicas relevantes.</p>
+            <form class="newsletter-form" id="newsletterForm">
+              <input type="email" placeholder="Seu e-mail" required aria-label="E-mail para newsletter">
+              <button type="submit" class="btn btn-gold" aria-label="Inscrever-se"><i class="fas fa-paper-plane" aria-hidden="true"></i></button>
+            </form>
+            <p class="footer-follow-label">Siga-nos</p>
+            <ul class="footer-social">
+              <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="https://wa.me/556232247580" aria-label="WhatsApp" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; <span id="currentYear"></span> Raphael Rodrigues Advocacia e Consultoria. Todos os direitos reservados.</p>
+        <p class="footer-credits">Desenvolvido com excelência jurídica · Goiânia, Brasil</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo" type="button">
+    <i class="fas fa-chevron-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/556232247580" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Fale conosco no WhatsApp">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

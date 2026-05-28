@@ -1,0 +1,120 @@
+/* ==========================================================================
+   Fontes do site
+   Titulos: Marcellus | Textos/UI: Fira Sans Condensed
+   ========================================================================== */
+
+/* ---------- Marcellus (titulos) ---------- */
+@font-face {
+  font-family: 'Marcellus';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('marcellus-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Marcellus';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('marcellus-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Marcellus';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('marcellus-400.woff2') format('woff2');
+}
+
+/* ---------- Fira Sans Condensed (textos, menu, botoes, UI) ---------- */
+@font-face {
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fira-sans-condensed-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('fira-sans-condensed-500.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('fira-sans-condensed-600.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fira-sans-condensed-700.woff2') format('woff2');
+}
+
+/* ---------- Noto Sans HK (corpo, menu, botoes, UI) ---------- */
+@font-face {
+  font-family: 'Noto Sans HK';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('noto-sans-hk-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Sans HK';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('noto-sans-hk-500.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Sans HK';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('noto-sans-hk-600.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Sans HK';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('noto-sans-hk-700.woff2') format('woff2');
+}
+
+/* ---------- Open Sans (fallback) ---------- */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('opensans-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('opensans-600.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('opensans-700.woff2') format('woff2');
+}

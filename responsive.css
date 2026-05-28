@@ -1,0 +1,742 @@
+/* ==========================================================================
+   Raphael Rodrigues Advocacia - Responsive Stylesheet
+   Breakpoints: 1200px | 992px | 768px | 576px
+   ========================================================================== */
+
+/* ---------- Legalor layout responsive ---------- */
+@media (max-width: 1200px) {
+  .site-header .nav-list {
+    gap: 18px;
+  }
+
+  .site-header .nav-link {
+    font-size: 12px;
+    letter-spacing: 0.8px;
+  }
+
+  .header-cta-phone {
+    min-width: 200px;
+    padding: 0 20px;
+  }
+
+  .header-cta-text strong {
+    font-size: 16px;
+  }
+
+  .why-choose-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .why-choose-middle {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    justify-content: center;
+    margin: -30px 0 20px;
+    order: 3;
+  }
+
+  .why-choose-right {
+    grid-column: 2;
+    grid-row: 1 / 3;
+  }
+
+  .why-choose-left {
+    grid-column: 1;
+  }
+
+  .about-panel {
+    left: 44%;
+    max-width: 480px;
+    padding: 35px 30px 40px;
+  }
+
+  .about-image-wrap {
+    width: 68%;
+    max-width: 720px;
+  }
+}
+
+/* ---------- Large Desktop (max 1200px) ---------- */
+@media (max-width: 1200px) {
+  :root {
+    --section-padding: 80px;
+  }
+
+  .why-choose-left {
+    padding: 60px 40px;
+  }
+
+  .footer-layout {
+    grid-template-columns: 340px 1fr;
+    gap: 40px;
+  }
+
+  .footer-brand-box {
+    margin-top: -70px;
+    padding: 40px 35px;
+  }
+
+  .stats-circle {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+/* ---------- Tablet Landscape (max 992px) ---------- */
+@media (max-width: 992px) {
+  .nav-center {
+    display: none;
+  }
+
+  .header-cta-phone {
+    min-width: auto;
+    padding: 0 18px;
+  }
+
+  .header-cta-text small {
+    display: none;
+  }
+
+  .header-cta-text strong {
+    font-size: 15px;
+  }
+
+  .main-header-inner {
+    gap: 0;
+  }
+
+  .cases-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .testimonials-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-cards .testimonial-card:nth-child(3) {
+    display: block;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+
+  .hero-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-image {
+    order: -1;
+    max-width: 100%;
+    min-height: 0;
+    margin: 0 auto -40px;
+    text-align: center;
+  }
+
+  .hero-image img {
+    height: clamp(420px, 62vw, 520px);
+    max-height: 520px;
+    max-width: 100%;
+    transform: translateY(8px);
+  }
+
+  .hero-features {
+    margin-top: -55px;
+  }
+
+  .feature-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .feature-card:nth-child(2) {
+    border-right: none;
+  }
+
+  .about-intro {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .about-intro-cols {
+    grid-template-columns: 1fr;
+    border-left: none;
+  }
+
+  .about-intro-col {
+    padding: 0 !important;
+    margin-bottom: 15px;
+  }
+
+  .about-visual {
+    min-height: auto;
+  }
+
+  .about-image-wrap {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: auto;
+    max-height: none;
+  }
+
+  .about-image-wrap img {
+    min-height: 320px;
+    max-height: none;
+    height: auto;
+    aspect-ratio: 4 / 3;
+  }
+
+  .about-panel {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    width: calc(100% - 40px);
+    max-width: 100%;
+    margin-top: -70px;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  .practice-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .why-choose-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-choose-left {
+    padding: 60px 40px;
+  }
+
+  .why-choose-right {
+    grid-column: 1;
+    min-height: 400px;
+  }
+
+  .why-choose-right img {
+    min-height: 400px;
+  }
+
+  .why-choose-middle {
+    flex-direction: row;
+    justify-content: center;
+    margin: -30px auto 20px;
+    padding: 0 20px;
+  }
+
+  .why-choose-stats {
+    position: static;
+    transform: none;
+    flex-direction: row;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .stats-visual {
+    order: 2;
+  }
+
+  .stats-circle {
+    width: 420px;
+    height: 420px;
+    margin: 0 auto;
+  }
+
+  .stats-visual::after {
+    display: none;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team-grid .team-card:last-child {
+    grid-column: auto;
+    max-width: 100%;
+    margin: 0;
+    width: 100%;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog-grid .blog-card:last-child {
+    grid-column: span 2;
+    max-width: 500px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .footer-layout {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .footer-brand-box {
+    margin-top: -50px;
+    max-width: 100%;
+  }
+
+  .footer-columns {
+    padding-top: 40px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ---------- Tablet Portrait (max 768px) ---------- */
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 70px;
+    --header-height: 70px;
+  }
+
+  .top-bar-promo span {
+    font-size: 11px;
+  }
+
+  .top-bar-links {
+    display: none;
+  }
+
+  .hero {
+    padding-top: 120px;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding-top: 100px;
+  }
+
+  .top-bar {
+    display: none;
+  }
+
+  .header-cta-phone {
+    display: none;
+  }
+
+  .site-header .hamburger {
+    min-height: 70px;
+    width: 52px;
+  }
+
+  .main-header {
+    min-height: 70px;
+  }
+
+  .main-header-inner {
+    min-height: 70px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .site-header .hamburger {
+    margin-right: -16px;
+  }
+
+  .logo-text {
+    font-size: 20px;
+  }
+
+  .logo-icon {
+    font-size: 22px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .cases-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .practice-grid-legalor,
+  .practice-grid-more {
+    grid-template-columns: 1fr;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .practice-grid-legalor .practice-card-image,
+  .practice-grid-more .practice-card-image {
+    height: 320px;
+  }
+
+  .practice-grid-legalor .practice-card-body,
+  .practice-grid-more .practice-card-body {
+    left: 14px;
+    right: 14px;
+    padding: 22px 18px 22px 22px;
+    min-height: 96px;
+  }
+
+  .practice-grid-legalor .practice-icon,
+  .practice-grid-more .practice-icon {
+    font-size: 44px;
+  }
+
+  .hero-watermark {
+    font-size: 250px;
+  }
+
+  .hero-features {
+    margin-top: -40px;
+    padding-bottom: 80px;
+  }
+
+  .feature-cards {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .feature-card {
+    border-right: none;
+    border-bottom: 1px solid var(--color-gray);
+  }
+
+  .feature-card:last-child {
+    border-bottom: none;
+  }
+
+  .feature-card-gold {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 32px 26px 34px;
+  }
+
+  .about-image-wrap img {
+    min-height: 280px;
+  }
+
+  .about-panel {
+    width: calc(100% - 32px);
+    margin-top: -50px;
+    margin-right: 16px;
+    padding: 30px 25px 35px;
+  }
+
+  .about-founder-sign {
+    display: none;
+  }
+
+  .badge-number {
+    font-size: 32px;
+  }
+
+  .practice-grid {
+    grid-template-columns: 1fr;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  .why-choose-stats {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    transform: none;
+    justify-content: center;
+    margin: -40px auto 0;
+    padding: 0 20px;
+    z-index: 10;
+  }
+
+  .counters-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .counter {
+    font-size: 36px;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .team-grid .team-card:last-child {
+    grid-column: auto;
+    max-width: 100%;
+  }
+
+  .blog-grid {
+    grid-template-columns: 1fr;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  .blog-grid .blog-card:last-child {
+    grid-column: auto;
+    max-width: 100%;
+  }
+
+  .contact-form {
+    padding: 30px 25px;
+  }
+
+  .footer-brand-box {
+    margin-top: -40px;
+    padding: 35px 28px;
+  }
+
+  .footer-columns {
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    padding-top: 35px;
+  }
+
+  .footer-newsletter {
+    grid-column: span 2;
+  }
+
+  .footer-bottom-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .scroll-top {
+    bottom: 90px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+  }
+
+  .whatsapp-float {
+    bottom: 20px;
+    right: 20px;
+    width: 52px;
+    height: 52px;
+    font-size: 24px;
+  }
+}
+
+/* ---------- Mobile (max 576px) ---------- */
+@media (max-width: 576px) {
+  :root {
+    --section-padding: 60px;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .btn {
+    padding: 14px 28px;
+    font-size: 12px;
+  }
+
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+  }
+
+  .hero-image {
+    margin-bottom: -20px;
+  }
+
+  .hero-image img {
+    height: auto;
+    max-height: 380px;
+    transform: none;
+  }
+
+  .hero-features {
+    margin-top: -35px;
+  }
+
+  .section-subtitle {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  .about-quote {
+    font-size: 17px;
+    padding: 15px 20px;
+  }
+
+  .founder-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .stats-circle {
+    width: 280px;
+    height: 280px;
+  }
+
+  .stats-center {
+    width: 90px;
+    height: 90px;
+  }
+
+  .stats-center span {
+    font-size: 28px;
+  }
+
+  .counters-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .counter-item {
+    text-align: center;
+    border-left: none;
+    border-top: 3px solid var(--color-gold);
+  }
+
+  .testimonial-card {
+    padding: 28px 22px;
+  }
+
+  .testimonial-text {
+    font-size: 17px;
+  }
+
+  .cta-section {
+    padding: 60px 20px;
+  }
+
+  .footer-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-newsletter {
+    grid-column: auto;
+  }
+
+  .newsletter-form {
+    flex-direction: row;
+  }
+
+  .footer-brand-box {
+    margin-top: 0;
+    padding: 30px 24px;
+  }
+
+  .footer-body {
+    padding-bottom: 50px;
+  }
+
+  .stat-box {
+    width: 150px;
+    padding: 22px 18px;
+  }
+
+  .stat-box-number {
+    font-size: 32px;
+  }
+}
+
+/* ---------- Small Mobile (max 400px) ---------- */
+@media (max-width: 400px) {
+  .logo img {
+    height: 40px;
+  }
+
+  .hero-subtitle {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  .feature-card {
+    padding: 25px 20px;
+  }
+
+  .feature-icon {
+    font-size: 28px;
+  }
+
+  .feature-card h3 {
+    font-size: 18px;
+  }
+}
+
+/* ---------- Reduced Motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---------- Print Styles ---------- */
+@media print {
+  .top-bar,
+  .header,
+  .loader,
+  .scroll-top,
+  .whatsapp-float,
+  .hamburger,
+  .mobile-menu,
+  .hero-watermark {
+    display: none !important;
+  }
+
+  body {
+    color: #000;
+  }
+
+  .hero {
+    background: #fff;
+    color: #000;
+    min-height: auto;
+    padding: 20px 0;
+  }
+
+  .hero-title,
+  .hero-text {
+    color: #000;
+  }
+
+  .section {
+    padding: 30px 0;
+    page-break-inside: avoid;
+  }
+}
